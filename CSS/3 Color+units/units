@@ -1,0 +1,53 @@
+Units
+-----
+
+1. Px (Pixel | picture element)
+   size is fixed 
+
+2. % percentage
+   sets width according to device width 
+   sets height according to its parent element
+
+3. vh and vw 
+   vh = viewport height 
+   vw = viewport width 
+
+   100vh = 100% of device height
+   100vw = 100% of device width 
+
+   1 vh = 1 % of device height
+   5 vh = 5 % of 500px
+        = 5/100 * 500
+        = 25px
+
+   1 vw = 1 % of device width
+   5 vw = 5 % of 500px
+        = 5/100 * 500
+        = 25px
+
+4. em and rem 
+
+em = empherical unit
+rem = root empherical unit
+
+By default : 
+1em = 16px 
+2em = 32px 
+2.5em = 40px
+
+With respect to parent (size : 20px):
+1em = 20px 
+2em = 40px 
+2.5em = 50px 
+ 
+
+By default : 
+1rem = 16px 
+2rem = 32px 
+2.5rem = 40px
+
+With respect to html root element (size : 20px):
+1rem = 20px 
+2rem = 40px 
+2.5rem = 50px 
+  
